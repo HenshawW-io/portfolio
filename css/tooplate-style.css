@@ -391,16 +391,19 @@ ul.cd-hero-slider {
 
 .portfolio > .row {
 	margin-bottom: 10px;
+	/* max-width: 500px; */
 }
 
-/* .portfolio_img {
-	width: default;
-} */
+.portfolio_img {
+	width: 500px;
+}
 
 .portfolio_text {
-	position: absolute;
-	right: 15%;
+	position: revert;
+	/* right: 15%; */
 	overflow: auto;
+	/* margin-left: -15%; */
+	/* margin: 15px; */
 }
 
 .projects-holder .mix {
