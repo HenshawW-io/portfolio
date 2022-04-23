@@ -180,7 +180,7 @@ p {
 	overflow: auto;
 	right: 15%;
 	padding: 0px;
-	max-width: 500px;
+	/* max-width: 500px; */
 }
 
 .navbar-toggle {
