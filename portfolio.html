@@ -112,13 +112,28 @@
                     <h1>Assessment of Monthly Precipitation Anomaly Changes between 1979 - 2014</h1>
                     <p>
                         I utilized ArcGIS Pro’s Multidimensional Raster Analysis tools to manipulate and analyze multidimensional raster data of sea surface
-                        temperature and monthly precipitation from 1979 - 2014.. To start, I imported the sea surface temperature multidimensional raster and
+                        temperature and monthly precipitation from 1979 - 2014. To start, I imported the sea surface temperature multidimensional raster and
                         aggregated the dataset to show each pixel’s maximum yearly temperature. I generated an anomaly raster by subtracting
-                        each of these maximum temperatures to the global climatological mean maximum temperature. I performed a similar workflow
+                        each of these maximum temperatures against the global climatological mean maximum temperature. I performed a similar workflow
                         for the precipitation dataset, with the addition of generating a Mann-Kendall trend map showing regions of monotonic
                         precipitation trends. From this map, I concluded that oceans are getting drier and land is getting wetter over time.
                     </p>
                     <img id='timeseries' src='img/MonthlyPrecipAnomSeattle.png' width=800px height=225px>
+                </div>
+            </div>
+            <div class="row" id='precip_anoms'>
+                <div class="col-sm-6 col-xs-12 portfolio_img">
+                    <!-- <div class="service-item first-service" id='photo'> -->
+                    <img id='precip_map' src='img/net_precip.png' width=500px height=400px>
+                </div>
+                <div class='col-sm-6 col-xs-12 portfolio_text' id='precip_text'>
+                    <h1>Atmosphere and ocean energy transport in extreme warming scenarios</h1>
+                    <p>
+                        I analyzed extreme scenarios of global warming out to 2300 from the SSP5-8.5 extension in three climate models to
+                        explore various changes in climate dynamic patterns. In this figure, all three models show a wet-gets-wetter pattern 
+                        in the deep tropics but a drying trend in the subtropics. These plots were generated using CartoPy.
+                        <a href="https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000343">Link to Publication</a>
+                    </p>
                 </div>
             </div>
         </div>
