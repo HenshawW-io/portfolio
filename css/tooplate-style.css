@@ -177,10 +177,12 @@ p {
 
 #about_me_text {
 	position: absolute;
-	overflow-y: hidden;
 	right: 15%;
 	padding: 0px;
-	/* max-width: 500px; */
+	max-width: 100%;
+	max-height: 418px;
+	overflow-y: scroll;
+	/* overflow-x: visible; */
 }
 
 .navbar-toggle {
@@ -249,22 +251,24 @@ ul.cd-hero-slider {
 
 #about {
 	background-color: #f4f4f4;
-	padding: 80px 0px;
+	padding: 20px 0px;
 }
 
 .col-md-3 #photo {
 	margin: 0;
-	width: 555px;
-	height: 740px;
+	padding-left: 150px;
+	overflow: visible;
+	width: 463px;
+	height: 418px;
 	/* background-image: url(../img/contact_me3.jpg) */
 }
 
 #about .section-heading {
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 }
 
 #interests .section-heading {
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 }
 
 .service-item {
@@ -496,7 +500,7 @@ ul.cd-hero-slider {
 }
 
 #blog .section-heading  {
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 }
 
 #blog .section-heading h4 {
