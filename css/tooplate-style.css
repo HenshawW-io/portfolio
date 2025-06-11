@@ -396,6 +396,7 @@ ul.cd-hero-slider {
 
 .portfolio_img {
 	width: 500px;
+	margin: auto 15px;
 }
 
 .portfolio_text {
